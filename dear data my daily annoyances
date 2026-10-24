@@ -1,7 +1,45 @@
 void setup() {
-  size(800, 600);
-}
+size(800, 800);}
 
 void draw() {
-  background(193, 144, 144);} 
+background(224, 208, 208);
+
+  // the title
+fill(250, 15 ,15); 
+textSize(26);
+text("My daily annoyances", 30, 45);
+
+// 1st blue circle - lasted 5 mins 
+noFill();
+stroke(170, 215, 250);
+strokeWeight(10);
+circle(200, 200, 100);
+
+// 2nd red circle - annoyance level 3
+stroke(230, 100, 100);
+strokeWeight(10);
+circle(200, 200, 75);
+
+//3rd purple circle - routine = category
+stroke(150, 100, 200);
+strokeWeight(10);
+circle(200, 200, 50);
+
+//4th pink circle - reason myself
+noStroke();
+fill(255, 20, 147);
+circle(200, 200, 25);
+
+// Date and time 
+fill(30);
+textSize(14);
+text("12 Oct - 08:10", 150, 275);}
+
+
+
+
+
+
   
+
+
