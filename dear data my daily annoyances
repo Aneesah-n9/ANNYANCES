@@ -4,6 +4,7 @@ size(800, 800);}
 void draw() {
 background(224, 208, 208);
 
+// The first entry
 // the title
 fill(250, 15 ,15); 
 textSize(26);
@@ -35,13 +36,65 @@ fill(30);
 textSize(14);
 text("12 Oct - 08:10", 150, 275);}
 
-22
+// Second entry
+// 1st blue circle - lasted 1 min
+noFill();
+stroke(170, 215, 250);
+strokeWeight(10);
+circle(400, 200, 100);
+
+// 2nd red circle - annoyance level 4
+stroke(230, 100, 100);
+strokeWeight(4);
+circle(400, 200, 75);
+
+//3rd green circle - travel = category
+stroke(60, 170, 80);
+strokeWeight(10);
+circle(400, 200, 50);
+
+//4th blue circle - reason someone else
+noStroke();
+fill(80, 150, 220);
+circle(400, 200, 25);
+
+// Date and time
+fill(30);
+textSize(14);
+text("12 Oct - 09:20", 350, 275);
+
+
+// Third entry
+// 1st blue circle - lasted 10 mins
+noFill();
+stroke(80, 150, 220);
+strokeWeight(10);
+circle(600, 200, 100);
+
+// 2nd red circle - annoyance level 4
+stroke(230, 100, 100);
+strokeWeight(4);
+circle(600, 200, 75);
+
+//3rd orange circle - technology = category
+stroke(240, 140, 40);
+strokeWeight(10);
+circle(600, 200, 50);
+
+//4th blue circle - reason someone else
+noStroke();
+fill(80, 150, 220);
+circle(600, 200, 25);
+
+// Date and time
+fill(30);
+textSize(14);
+text("14 Oct - 14:30", 550, 275);
 
 
 
 
 
-mjkl
 
 
 
