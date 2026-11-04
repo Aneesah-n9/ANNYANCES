@@ -13,12 +13,12 @@ text("My daily annoyances", 30, 45);
 // 1st blue circle - lasted 5 mins 
 noFill();
 stroke(170, 215, 250);
-strokeWeight(10);
+strokeWeight(5);
 circle(200, 200, 100);
 
 // 2nd red circle - annoyance level 3
 stroke(230, 100, 100);
-strokeWeight(10);
+strokeWeight(3);
 circle(200, 200, 75);
 
 //3rd purple circle - routine = category
